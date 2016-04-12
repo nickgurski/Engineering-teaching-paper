@@ -2,6 +2,18 @@
 
 \usepackage{graphicx}
 \usepackage{parskip}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amscd}
+\usepackage{eucal}
+\usepackage[all]{xy}
+\usepackage{pstricks}
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\mb}{\mathbf}
+\renewcommand{\dot}{\centerdot}
+
 
 \title{Flipped teaching as a method for engaging large groups} 
 \author{Dr Sam Marsh}
@@ -16,7 +28,40 @@ We implemented a flipped approach to teaching mathematics to engineers and it wa
 \end{abstract}
 
 \section{Background}
-Here we should cover the background of the situation in Sheffield, but also anything we know about the literature.
+This is some stuff I have copied from my CiLT 2 portfolio, we can include or not.
+
+The teaching that goes on in the old MAS140/151/152 was very task-oriented:  the lecturer would outline a range of tasks the students would be asked to perform, and then give them explicit tools for performing those tasks.  This is a level of teaching that is concerned primarily with \textit{execution} rather than \textit{theory}; here the focus was on learning particular methods and not the theory that gives rise to those methods.  Now, there was some theory presented in this module, but that theory was not the top priority for either lecturer or student. Thus this teaching was really about \textit{problem-solving}, and not about \textit{problem-understanding}.  While from some perspectives this might seem shallow, it is appropriate, given the audience, for at least two reasons:  first, on the whole, engineering students respond well to the idea of solving specific problems and getting an answer, and second, the module is intended to prepare them to solve the kinds of problems that will come up during their engineering degree.
+
+In practice, this means that the there were two primary learning activities.  The first was the lecture, of which there are two per week, and these lectures were executed in an entirely traditional fashion.  
+%First, material was introduced.  This would include explaining what kinds of problem we were going to solve, and perhaps a bit of theory that would point us in the right direction for a solution.  Sometimes this theory would actually get us all the way to the correct solution method, sometimes there would be a substantial gap between theory and solution or even no justification at all for how the background theory would produce the solution method given.  After explaining how to work a kind of problem in the abstract, examples would be explained; these would increase in difficulty or effort required, and would give the students a feeling for what they might expect later.  I made some small adjustments to the lectures, most notably adding in questions for the students to work during the lecture itself.  These problems, often broken into small steps, allow me to get a good feel for what students are understanding or not understanding, and I feel like this change has been quite successful.
+The second learning activity was the weekly tutorial sessions.  Each student was assigned to a tutorial group, and a group was usually about 20-30 students per staff member or postgraduate assistant; thus some tutorials would have 40 students with one staff member and one assistant, while others would have 80 students with one staff member and three assistants.  These tutorials are ``mandatory'' in the sense that we claimed they were, but this was not enforced explicitly.  Attendance was kept, and we often correlated poor attendance with poor performance, but beyond that very little was usually done with this information.  Attendance numbers would usually start quite high, but then drop off as time progressed.  
+%We do sometimes get specific feedback on student questionnaires about the tutorials, and it usually takes one of a few standard forms:  the tutorials were helpful, my tutor was helpful, or my tutor was not helpful.  I do not recall seeing questionnaires in which students reported that the tutorials themselves were not helpful, although the decline in attendance does indicate that they lack interest in the tutorials even if they find them beneficial.
+
+%While the activities during any given tutorial are largely up to the staff member running that tutorial (who is usually not the lecturer, given the size of these modules), it is safe to say that the primary activity during tutorials is working on questions from tutorial sheets that the lecturer provides in advance.  Students tend to approach these problem sheets in one of two ways.  The first approach is to do every problem, in order, regardless of how far behind you get.  The second approach is to work on the sheet which claims to be for that week in the lecture, regardless of how the material on the sheet actually corresponds to the lecture material.  All of this, in addition to the differences in the personalities and teaching styles of the tutors and assistants involved, results in a large degree of variation in learning that goes on in tutorial sessions.  If a student actively seeks out assistance on relevant problems and generally follows along with the lecture so that they are attempting appropriate problems, then this system can work very well.  For less engaged students, particularly with a shy member of staff leading the tutorial, this can easily turn into an hour of gossiping with friends or staring blankly at problems without making any progress at all.
+
+For many of these modules, feedback for students was somewhat limited.  In one case (MAS153) there were a few marked homework assignments, but for many of the modules there was nothing as direct as an assessed piece of work during the semester, simply due to class sizes and available resources.  Many students sought feedback during the weekly tutorials, and others would attend lecturer office hours, but both of these methods only provided feedback if the students took the initiative. % Students do bring up the topic of feedback on occasion in their questionnaires, but remarks on the topic are by no means ubiquitous.  One of the main reasons that so many of these modules do not have feedback such as marked homework is simple economics -- as these tend to be large modules, it requires a considerable amount of work just to mark a single short assignment from each student.  These kinds of economic issues influence many factors in our engineering teaching, and going forward SoMaS should bear in mind both economics and quality-of-teaching issues when looking to improve our modules for engineers.
+Assessment, then, was largely or entirely by exam.  In previous years, this would involve one exam each semester, but our Engineering Faculty changed all of their modules to only having a single exam after Semester 2 and thus we had a single, 3-hour exam covering all of the material from the entire year.  The contents of this exam were split evenly between material from the first and second semesters, and we kept a similar format as in previous exams.  When changing from two exams to a single exam, results were far worse than in past years; the mean dropped dramatically, to the point where we were essentially forced to scale up the exams for the first time in years.  Note, however, that there were not particularly clear trends indicating that students were not understanding certain topics, rather that they performed poorly throughout the exam.
+
+Up until exams, this cohort seemed roughly similar to previous years' in terms of ability, background, and motivation.  Assessing only once at the end of the year instead of each semester seemed to have a noticeable impact on how students approached learning the mathematics involved.  At one Engineering exam board meeting, it was suggested that these low exam results are perhaps more in line with the students' actual learning than in the past, the hypothesis being that students tended to put off doing any work during the semester, leaving it all until right before an exam.  Students were unlikely to retain any real understanding of the mathematics involved, but with only a single semester's worth of material they were able to pass an exam.
+
+End history of engineering teaching, begin some random theory I found
+
+Williams  makes the argument in \cite{w} against the ``final exam'' as the ultimate means of assessment, bringing up how this method can lead to very shallow learning, and we certainly believe that this phenomenon contributed to the poor exam performance we witnessed.  This brings up an important consideration, namely how to get students engaged with the material over the entire year even though the exam is not until May.  In \cite{e}, Elton considers student motivation from the perspective of a motivational theory of work pioneered by Herzberg.  One conclusion to draw from this research is that poor student motivation can result from the poor management of extrinsic and intrinsic motivating factors.  In particular, Elton discusses how students often are positively motivated by being able to show off achievement throughout the learning experience, and the focusing on a single exam can change the motivator of ``academic achievement'' from a positive motivator to a negative one by overly stressing failure instead of rewarding success.
+
+Next paragraph doesn't seem useful:
+
+Golden and Stripp describe a teaching situation at the University of West England in \cite{gs} which was similar to ours in Sheffield.  They discuss a first year mathematics module for Engineering students coming from a wide range of programmes, and outline a teaching strategy that is very similar to our current one with a single important difference.  Their module consisted of two hours of lecture per week, and one hour of tutorial, just as ours did, and most materials for the module can be obtained directly by students from a website.  The main difference between their module and our Engineering modules is the use of routine computer testing.  The particular strategy used by those authors is to have online tests at the end of each ``Learning Unit'', and they say that generally means about every four weeks.  These online tests are generated randomly from a bank of appropriate questions, and are marked immediately once the student completes a test.  Each student has two weeks to complete their tests, and they may make three attempts in total, each one a new, randomly generated test; the highest mark is recorded, and this contributes a full 50\% to the final assessment of the module.
+
+A study \cite{nk} by Nguyen and Kulm looked at web-based practice and assessment tools in middle school (age 11-13) children.  These kinds of software will automatically produce mathematics problems of a particular type which students are  able to work, submit an answer and receive an immediate mark together with certain kinds of feedback.  %(As a note, this kind of online assessment is already being used in some modules in SoMaS.  Our own Neil Strickland wrote his own version of this kind of software which can randomly generate questions and then check student answers using the standard mathematics software Maple.)  
+Students are able to repeat a certain kind of problem until they are comfortable, with new wording and random number values generated each time.  In this study, the children who worked with the computer-generated problems scored significantly higher than the children who continued working problems with pencil and paper in the classroom.  The process of getting immediate feedback helped the students correct errors and recognise common mistakes which they were then able to avoid in future work.
+
+It is important to remember that there is not necessarily a clear divide between online learning and traditional, face-to-face learning; any learning experience that has some duration could easily contain elements of both.  In many ways, online learning faces many of the same obstacles that face-to-face learning does.  One framework for studying the social learning experience is the Community of Inquiry model \cite{ga} which describes and explains three crucial features of a social learning environment:  social presence, teaching presence, and cognitive presence.  Students view teacher presence as very important in online education, and there is a correlation between the perceived learning by students and the quality and amount of teacher presence in the online learning environment \cite{jt}.  But this should not be a surprising result, as the same is true for face-to-face learning environments \cite{ra}.  Thus in many ways, studying online learning is done using the same methods and asking the same questions as one might in studying traditional educational methods.
+
+A study \cite{kwsc} done at the University of Alabama considered three groups of students taking a graduate-level mathematics course for engineers.  In this study, all three groups performed very similarly, with the students in the blended group outperforming those in the traditional group on exams and with students in the online-only group performing the best on analytical, take-home assessments.  For the first of these results, that authors suggest that students having access to both online and traditional methods will choose the method that best suits them, thus increasing overall performance.  For the results on the analytical assessments, the authors suggest that students in the online-only group were required to work harder and understand the material at a deeper level since they did not have easy access to an outside source of knowledge (i.e., the instructor) to supply hints or solutions immediately.
+
+
+
+
 
 \section{Methodology}
 Here we outline the nature of the pilot and the data which would form our assessment of effectiveness.
@@ -28,6 +73,25 @@ Here we present our findings.
 Here we sum up.
 
 \section{References}
-Here we put any references we can think of.
-\end{document}
 
+
+\begin{thebibliography}{12345}
+
+
+\bibitem[KWSC]{kwsc} C. Karr, B. Weck, D. Sunal, and T. Cook, \emph{Analysis of the Effectiveness of Online 	 Learning in a Graduate Engineering Math Course}, Journal of Interactive Online 	Learning, \textbf{1} (3), 2003.
+
+\bibitem[JT]{jt} M. Jiang and E. Ting, \emph{A study of factors influencing students' perceived learning in a 	 web-based course environment}, Journal of Educational Telecommunications, \textbf{6} (4), 2000,	317--338.
+
+\bibitem[RA]{ra} E. Rowe and J. Asbell-Clarke, \emph{Learning Science Online: What Matters for Science 	Teachers?}, Journal of Interactive Online Learning, \textbf{7} (2), 2008.
+
+\bibitem[GA]{ga} D. R. Garrison and T. Anderson, \emph{E-learning in the 21st century: A framework for 	research and practice}, New York: Routledge Falmer, 2003.
+
+\bibitem[NK]{nk} D. Nguyen and G. Kulm, \emph{Using Web-based Practice to Enhance Mathematics 	Learning and Achievement}, Journal of Interactive Online Learning, \textbf{3} (3), 2005.
+
+\bibitem[GS]{gs} K. Golden and C. Stripp, \emph{Blending on-line and traditional classroom-based teaching}, available at \begin{verbatim} http://www.mei.org.uk/files/pdf/LOUGHBOROUGH_PAPER_D3CS.pdf. \end{verbatim}
+
+\bibitem[W]{w} J. Williams, \emph{The place of the closed book, invigilated final examination in a knowledge economy}, Educational Media International \textbf{43}, Number 2, June 2006, 107--119.
+
+\end{thebibliography}
+
+\end{document}
