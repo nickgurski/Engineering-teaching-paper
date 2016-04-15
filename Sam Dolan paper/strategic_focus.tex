@@ -1,0 +1,448 @@
+%\documentclass[twocolumn,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}
+%\documentclass[preprint,showpacs,preprintnumbers,amsmath,amssymb,aps]{revtex4}
+%\documentclass[preprint,preprintnumbers,amsmath,amssymb,aps]{revtex4}
+\documentclass[amsmath,amssymb,aps]{revtex4}
+
+
+\oddsidemargin=-0.2cm
+\evensidemargin=-0.2cm
+\topmargin=-0.5cm
+\textheight=23cm
+\textwidth=16.7cm 
+
+\linespread{1.2}
+\selectfont 
+
+% Some other (several out of many) possibilities
+%\documentclass[preprint,aps]{revtex4}
+%\documentclass[preprint,aps,draft]{revtex4}
+%\documentclass[prb]{revtex4}% Physical Review B
+
+%\usepackage[small]{caption} % To reduce the size of the text in figure captions
+\usepackage{graphicx}       % Include figure files
+\usepackage{dcolumn}        % Align table columns on decimal point
+\usepackage{bm}             % bold math
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{tensor}
+\usepackage{hyperref}
+
+%\topmargin=0.5cm
+%\textheight=23cm
+%\nofiles
+
+%\include{symbols_def}
+
+\newcommand{\subp}{{}_{\, \stackrel{\,}{2}}}
+\newcommand{\subm}{{}_{\, \stackrel{\,}{-2}}}
+\newcommand{\dt}{\! \cdot \!}
+\newcommand{\nn}{\nonumber}
+\newcommand{\grad}{\mbox{\boldmath $\nabla$}}
+\newcommand{\clm}{{\mathcal{M}}}
+\newcommand{\lam}{\lambda}
+\newcommand{\delsl}{\not\!\partial}
+\newcommand{\gam}{\gamma}
+\newcommand{\bet}{\beta}
+\newcommand{\alp}{\alpha}
+\newcommand{\kap}{\kappa}
+\newcommand{\sig}{\sigma}
+\newcommand{\vareps}{\varepsilon}
+\newcommand{\half}{{\textstyle \frac{1}{2}}}
+\newcommand{\om}{\omega}
+\newcommand{\eps}{\epsilon}
+\newcommand{\nr}{{\mbox{\scriptsize NR}}}
+\newcommand{\ud}{\mathrm{d}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\nuparam}{\nu}
+\newcommand{\brk}{\, & \,}
+\newcommand{\lend}{\, \\ \,}
+
+\newcommand{\Mcal}{\mathcal{M}}
+
+\newcommand{\tMor}{2M/r}
+
+\newcommand{\psl}{\not\!p}
+\newcommand{\ksl}{\not\!k}
+\newcommand{\rsl}{\not\!R}
+\newcommand{\ssl}{\not\!s}
+\newcommand{\asl}{\not\!a}
+\newcommand{\bsl}{\not\!b}
+\newcommand{\csl}{\not\!c}
+\newcommand{\dsl}{\not\!d}
+\newcommand{\integrand}{\int \frac{d^3k}{(2\pi)^3}}
+
+\newcommand{\bal}{\mathbf{\alpha}}
+\newcommand{\bnab}{\mathbf{\nabla}}
+\newcommand{\halfa}{\frac{1}{2}}
+\newcommand{\halfb}{\frac{1}{2}}
+\newcommand{\halfc}{1/2}
+\newcommand{\bphat}{\hat{\mathbf{p}}}
+\newcommand{\lcrit}{l_\text{c}}
+\newcommand{\Vmax}{V_\text{max}}
+\newcommand{\Aout}{A_\text{out}}
+\newcommand{\Ain}{A_\text{in}}
+\newcommand{\Bout}{B_\text{out}}
+\newcommand{\Bin}{B_\text{in}}
+
+\newcommand{\bZ}{\mathbf{Z}}
+\newcommand{\bX}{\mathbf{X}}
+\newcommand{\bS}{\mathbf{S}}
+
+\newcommand{\Aoutalt}{A_\kappa^\text{out}}
+\newcommand{\Ainalt}{A_\kappa^\text{in}}
+\newcommand{\phihor}{\phi_l^\text{(hor)}}
+\newcommand{\phiin}{\phi_l^\text{(in)}}
+\newcommand{\phiout}{\phi_l^\text{(out)}}
+\newcommand{\rmin}{r_\text{min}}
+\newcommand{\rmax}{r_\text{max}}
+%\newcommand{\Veff}{V_\text{eff}}
+\newcommand{\bcrit}{b_c}
+\newcommand{\bLhat}{\hat{\mathbf{L}}}
+\newcommand{\polP}{\mathbf{\mathcal{P}}}
+\newcommand{\mass}{m}
+\newcommand{\spc}{\hspace{0.2cm}}
+\newcommand{\us}{\overline{u}_s(\bp_f)}
+\newcommand{\ur}{u_r(\bp_i)}
+\newcommand{\sigabs}{\sigma_\text{A}}
+
+\newcommand{\rstar}{r_\ast}
+\newcommand{\astar}{{a_\ast}}
+\newcommand{\aw}{z}
+
+\newcommand{\be}{\beta}
+
+\newcommand{\Rinc}{B^{\text{(inc)}}_{lm\omega}}
+\newcommand{\Rref}{B^{\text{(refl)}}_{lm\omega}}
+\newcommand{\Rtrans}{B^{\text{(trans)}}_{lm\omega}} 
+
+\newcommand{\Yspher}{{}_{s}Y}
+
+\newcommand{\diffop}{ \hat{\mathcal{L}}_x }
+\newcommand{\diffopm}{ \hat{\mathcal{L}}_{-x} }
+\newcommand{\alpco}{\alpha_{lm}^{(2)}}
+\newcommand{\betco}{\beta_{lm}^{(2)}}
+
+\newcommand{\Bef}{\mathcal{B}_{ln}}
+\newcommand{\uin}{u_{l\omega}^{\text{in}}}
+\newcommand{\uup}{u_{l\omega}^{\text{up}}}
+
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+
+\newcommand{\calR}{\mathcal{R}}
+
+%  PAPER PLAN: (OLD)
+
+% Abstract
+% Introduction
+
+% Theoretical Formulation
+
+
+\begin{document}
+
+ \title{Trial of `flipped classroom' approach to teaching engineering mathematics}
+
+\author{Sam R. Dolan}
+ \address{%
+ School of Mathematics and Statistics, University of Sheffield.
+}%
+ \email{s.dolan@sheffield.ac.uk}
+
+\date{\today}
+
+\begin{abstract}
+I review the outcomes of a 2013/14 trial of a `flipped classroom' approach to teaching mathematics to a large cohort of first-year undergraduate engineering students at the University of Sheffield. I present comparative data on student engagement and exam results. I report on a survey of teaching staff involved in the trial, and outline some challenges in deploying this approach more widely at the University of Sheffield. 
+\end{abstract}
+
+
+\maketitle
+
+\section{Introduction} 
+
+\textbf{Pedagogical theory:} {\it Blended learning} is an educational style in which face-to-face teaching in a traditional classroom setting is combined with online delivery of content and instruction, giving the student some control over time, place or pace \cite{Bonk:Graham}. {\it Flip teaching} (or the {\it flipped classroom}) is a particular kind of blended learning, in which students learn new content by watching video lectures online, outside the classroom setting (e.g.~at home), and tackle `homework' problems in the classroom setting with teacher(s) on-hand to offer guidance \cite{Ropchan:Stutt:2013}. Note that this approach reverses the traditional paradigm of content-driven lectures delivered at University supplemented by homework problems, and the teacher's role evolves from `sage on the stage' to `guide on the side' \cite{WesleyBaker}.
+
+The flipped classroom appears to have the potential to improve student engagement and performance.  Online content delivery allows more staff time to be devoted to facilitating small-group collaborative problem-solving. In this classroom setting, the teacher can tailor and personalize their instruction. Pioneering trials of flipped-classroom models in the teaching of mathematics suggest it can be effective \cite{Maesumi, Karr, Nguyen}. 
+
+\textbf{Context:}
+Sheffield has a strong reputation in engineering. The Faculty of Engineering attracts a very large and diverse cohort of undergraduates. School of Mathematics \& Statistics (SoMaS) provides service teaching for much of the mathematical component of the engineering degree programmes. SoMaS runs several large-cohort modules ($\sim150$--$300$ students) at Levels 1 and 2 for the various departments in the faculty (e.g.~Chemical, Civil, Mechanical, Electrical and Aeronautical Engineering). The number of lecture theatres that can accommodate these cohorts is limited. Many of the modules have similar or identical syllabuses. Student engagement is, typically, lacklustre.
+
+\textbf{MAS152 pilot:}
+In 2013/14, SoMaS trialled a flipped-classroom approach to teaching the 20-credit module MAS152 (Essential Mathematical Skills and Techniques) for first-year undergraduates from Mechanical Engineering \cite{MAS152}. The new approach was developed by a working group led by N.~Gurski, following an idea that germinated during CiLT Module 2 \cite{Gurski}. The key details of the `traditional' and `flipped classroom' formats for this module are summarized in Table \ref{tbl}. 
+
+\begin{table}
+\begin{tabular}{l|c|c}
+ & \textbf{`Traditional'} & \textbf{`Flipped classroom'} \\
+ \hline
+\textbf{Content} & 40 hours of lectures. & $\sim 20$ hours of video  \\
+\quad per week: &  $2 \times 50$ min lectures & $\sim 6 \times 10$ min videos  \\
+\hline
+\textbf{Tutorials} & 20 hours  & 40 hours \\
+\quad per week: & $1 \times 50$ mins & $2 \times 50$ mins
+\quad \\
+\quad class size: & $\sim 40$--$120$ students &  $\sim 40$ students \\
+\hline
+\textbf{Assessment} & \quad \textbf{85\%}: 3-hour examination \quad & \quad \textbf{85\%}: 3-hour examination \quad  \\
+ & \textbf{15\%}: Homework assignment & \textbf{15\%}: Weekly online tests \\
+ \hline
+\end{tabular}
+\caption{Summary of traditional (old) and blended-learning (new) approaches to module MAS152.}
+\label{tbl}
+\end{table}
+
+Traditional lectures (two per week) were replaced with short ten-minute videos (typically six per week). The number of tutorials was doubled, from one to two per week. The tutorial class size was reduced to $\sim 40$ students. Each tutorial was accompanied by a new structured worksheet, following a standardized format of `recap/demonstrate/practice'. For assessment, the format of the final three-hour written exam ($85\%$) was not changed; however, the homework exercise ($15\%$) was replaced by online tests. A short but compulsory online test followed each video. These tests were administered using the (Maple-based) AIM system \cite{AIM}, developed at SoMaS by N.~Strickland.
+
+The videos were recorded in an office with basic equipment (a camcorder, a microphone, lighting and a blackboard), by eight teaching staff with little or no prior experience of video technology. Each staff member was given autonomy to develop their own style; variants of `chalk-and-talk' were most common, although narrated video with powerpoint-type slides were also used. The videos were hosted on YouTube and accessed via the AIM system (see playlist~\cite{playlist} for sample videos).
+
+\section{Evidence}
+Below, two strands of evidence are examined, to assess the efficacy of the 2013/14 pilot. Data from four first-year modules is compared, which were taught in the following styles:
+\begin{center}
+\begin{tabular}{l l | c c}
+Module &   & 2012/13 & 2013/14 \\
+\hline
+MAS140 & Chemical Eng. & \quad Traditional \quad & \quad Traditional \quad \\
+MAS151 & Civil Eng. & \quad Traditional \quad & \quad Traditional \quad \\
+\textbf{MAS152} \quad & Mechanical Eng. & \quad Traditional \quad & \quad \textbf{Flipped} \quad \\
+MAS156 & Electrical \& Aerospace \quad & \quad Traditional \quad & \quad Traditional \quad \\
+\hline
+\end{tabular}
+\end{center}.
+
+
+\subsubsection{Student engagement}
+Student engagement with the first-year mathematics-for-engineers modules is typically quite poor, and anecdotal evidence suggests it has deteriorated over recent years. There are a number of posited reasons for this, including: (i) a move from semester-end to year-end examination, (ii) repetition of material from A-level, (iii) lack of effective peer-group pressure to attend, due to large cohort, (iv) increasing demands on engineering students' time (e.g.~project weeks, challenges, etc.), (v) ineffective `old-fashioned' teaching approach contrasting with `new-media' expectations of students.
+
+Figure \ref{fig:attendance} shows that, by the 10th week of the first semester of 2013/14, tutorial attendance in three `traditional' modules (MAS140, 151 and 156) had declined to below $50\%$. In contrast, by week 10,  attendance in the pilot module (MAS152) was at almost $80\%$. Data for Semester 2 is not yet analyzed, but anecdotal evidence suggests that the trends in Fig.~\ref{fig:attendance} were further exacerbated. 
+
+\begin{figure}
+\begin{center}
+ \includegraphics[width=12cm]{data/tutorial_attendance.pdf}
+\end{center}
+\caption{Cross-module comparison of tutorial attendance in Semester 1 (2013). Modules MAS140, 151 and 156 were taught in the `traditional' style, whereas MAS152 was taught in the new style (summarized in Table \ref{tbl}). The dotted lines show weeks where data quality was diminished (e.g.~reading week and project weeks). This plot is reproduced from Ref.~\cite{Marsh2}.}
+\label{fig:attendance}
+\end{figure}
+
+\subsubsection{Examination results}
+Over recent years, the modules MAS140, 151 and 152 have been set the same final examination paper, which is sat at the same time, under the same conditions. This makes it possible to compare performance `latitudinally', between cohorts. We may also compare `longitudinally', between years, after noting that the difficulty of exam papers varies somewhat. Note also that MAS140 \& 151 share the same lectures.
+
+Figures \ref{fig:exam2013} and \ref{fig:exam2014} show the cumulative distribution of `raw' (i.e.~unscaled) exam marks from June 2013 and 2014, respectively. Note that curves towards the right (left) of the plot represent better (worse) examination performance. Curves that are `flatter' near the left-hand corner are desirable, indicating a lower failure rate. 
+
+\begin{figure}
+\begin{center}
+ \includegraphics[width=13cm]{data/raw_cumulative_2013.pdf}
+\end{center}
+\caption{Cross-module comparison of cumulative distributions of 2012/13 `raw' exam marks for modules MAS140, MAS151 and MAS152. In this year, all three modules were taught in the `traditional' style (cf.~Fig.~\ref{fig:exam2014}).}
+\label{fig:exam2013}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+ \includegraphics[width=13cm]{data/raw_cumulative_2014.pdf}
+\end{center}
+\caption{Cross-module comparison of cumulative distributions of 2013/14 exam marks for modules MAS140, MAS151 and MAS152. The former modules (MAS140 and 151) were again taught in the traditional style, whereas MAS152 was taught via the `flipped classroom' approach.}
+\label{fig:exam2014}
+\end{figure}
+
+For 2012/13, when all modules were taught in traditional style, Fig.~\ref{fig:exam2013} shows that, overall, the MAS140 cohort lagged somewhat behind 151 and 152. Primarily, this is accounted for by the higher proportion of students scoring below 40\%. The cohort means were $63.6\%$, $68.5\%$ and $69.0\%$ respectively.
+
+For 2013/14, in which MAS152 was taught in the `flipped' style, Fig.~\ref{fig:exam2014} shows the picture. First, we note that the exam paper was found to be more difficult (i.e.~the curves are shifted left-wards). Second, note that MAS140 again lagged MAS151. Third, the MAS152 `flipped' cohort outperformed their peers by a significant margin. The cohort means were $48.1\%$, $53.1\%$ and $58.4\%$, respectively. Fourth, the flatness of MAS152 curve at the left-hand edge implies that a smaller proportion of the cohort will fail the module. 
+
+The obvious confounding factor that is not accounted for here is the relative `intrinsic' abilities of the cohorts. This could be estimated by examining performance at A-level; this should be a priority for a future analysis. 
+Notwithstanding this caveat, it seems clear that in this year's trial the `flipped-classroom' cohort shows a marked improvement in performance relative to cohorts in comparable `traditionally-taught' modules.  
+
+\section{Future challenges}
+The trial has been widely perceived as a success within both SoMaS and Engineering faculties. In 2014/15, the `flipped classroom' approach will be extended to other cohorts. The number of tutorial groups, each of $\sim 40$ students, will more than double, from 6 to 14. This will place additional pressure on the allocation/timetabling of staff and teaching facilities. 
+
+To reflect on our progress, and to start the planning process, I arranged a survey of the 12 staff who had contributed by recording videos or leading tutorials. Participants were asked to respond to twelve open questions. Eight written, and two verbal, responses were received. Some interesting comments are collated in Appendix A. The feedback is interesting and varied. Several key points were raised:
+\begin{itemize}
+ \item Next year, some tutorials could be led by motivated post-docs or PhD students, if given an induction.
+ \item The videos take significantly longer to make than is presently accounted for in the workload allocation model (WAM).
+ \item For tutorials, the ideal for effective teaching is a class of $\sim 30--40$ students in a room at no more than $75\%$ capacity, equipped with a large blackboard (or, less favoured, whiteboard).
+ \item Tutorial sheets and videos should be made available to tutors well in advance. 
+ \item The videos were generally thought to be effective; some styles seemed more suitable than others.
+ \item With one exception, all respondents would teach the tutorials again next year.
+ \item It is suggested that the `flipped classroom' style may be better suited to engineering mathematics than single-honours mathematics.
+\end{itemize}
+
+The apparent success of the trial begs a number of questions. For example, should this approach be deployed in (i) Level 2 engineering mathematics modules, (ii) single-honours mathematics modules within SoMaS, and (iii) other faculties? How does running both `flipped-classroom' and `traditional' modules in parallel affect engagement with the latter? Would quality be detrimentally affected if post-docs/PhD students led tutorials? How does the new approach align with the model of The Sheffield Graduate \cite{sheffieldgraduate}? Is this approach an effective response to disruptive innovations which will impact on the University sector (e.g.~the Khan Academy \cite{khan}), or is a more radical approach needed? Finding appropriate answers to these questions will surely help to shape the future of mathematics teaching at the University of Sheffield.
+
+\hrulefill
+
+\appendix
+\section{Responses to staff survey}
+Below are collated comments from eight respondents to the questionnaire distributed to teaching staff involved with MAS152 in 2013/14.
+\vspace{0.3cm}
+Respondent AB:
+\begin{itemize} 
+\item Student engagement is much improved by doubling the direct contact time. A good number of the students really made the most of the tutorials by regularly asking me or each other questions. Only one or two seemed disengaged. I think the videos followed by tutorial recap helps reinforce the key points.
+ \item I was a little worried that the module would favour students with their own laptops/tablets/wifi over those trying to watch videos in a crowded IC computer room. No students ever complained of this though. 
+ \item One or two overseas students had covered much of the S1 material before. This perhaps made them disengage slightly from the tutorials. I encouraged them to focus on the harder questions and to ask me about any interesting problems they'd thought of. By S2 this was less of an issue.
+ \item The bulk of the videos were clear and well presented, though there was some variation. I thought ***'s  videos on *** were particularly good for making the most of video editing to cut out wasted time, etc. and were well presented for the engineers. In contrast, ***'s videos on *** were less ‘professional'.
+ \item The tutorial sheets were mostly about right, though a few I thought were too hard (the last couple of integration sheets stick in my mind for this). On most of the sheets most students tackled 2 of the 3 questions, with the top few getting to the final (usually more advanced) question.
+ \item Order of priority for improvements: 1) appropriate teaching spaces; (2) updated video lectures; (3) improved worksheets
+ \item The social meet-ups we had 2-3 times were helpful to hear back about how others had approached their tutorials and any pros/cons they'd encountered. I think it is mostly good that we can each approach the tutorials in or own style/format, but it might've been useful for student feedback to be tutor-specific to get useful insights.
+ \item To be super-critical, a few of the tutorial sheets were sent quite late. Receiving a sheet at 5pm on a Friday when I had a 10am Monday tutorial was a bit annoying!
+ \item Tutorials could be led by good post-docs.
+ \item I have requested to [teach these tutorials] again as I enjoyed it and I think it makes good use of my experience.
+\end{itemize} 
+
+\vspace{0.3cm}
+Respondent JC:
+\begin{itemize}
+ \item The video format seems a little dry to me: almost by necessity it lacks the personal touch of a lecture.
+It's hard to see how to improve this without making the videos annoying. I had an idea that one could record some things as Socratic dialogues. This would be rather more work to prepare, and rather harder to get right, so I won't be surprised if it isn't followed up.
+ \item Making videos is fairly tedious: much more tedious than any kind of face-to-face teaching. This is probably an essential feature, but deserves acknowledgement [in e.g. the workload allocation model (WAM)].
+\end{itemize}
+
+\vspace{0.3cm}
+Respondent FJ:
+\begin{itemize}
+ \item Making videos was a time-consuming exercise which is not really properly accounted for in the WAM. I spent more time on them than the WAM credits me for -- probably 60-80 hours on them for a credit of 30 hours.
+ \item I'd wanted to make Open University quality videos, but quickly lowered my targets (and am more impressed by Marcus du Sautoy than before, even though I still find him a bit irritating).  The organisation of the videos was rather late, and I think that more time should be spent on making them if we were to repeat the exercise in other modules.  I can't imagine that too many other modules readily fit into this model, though – Foundation Year might be an exception.
+\end{itemize}
+
+\vspace{0.3cm}
+Respondent MJ:
+\begin{itemize}
+ \item Advantages: Students can look at the videos at a time which is convenient for them. They have the ability to pause and rewind the video lectures. The video lectures can be used again with no extra effort.
+ \item Disadvantages: Quite a few of the students don't look at the video lectures before coming to class and expect to learn everything during tutorials.
+ \item The difficulty of the tutorial sheets was about right.
+ \item I think the tutorials are best taught by postgraduates. 
+ \item I would prefer not to teach the module again, just as I would prefer not to do any more tutorials. 
+\end{itemize}
+
+\vspace{0.3cm}
+Respondent KM:
+\begin{itemize}
+ \item The only serious problem was lack of time to cover the reminders, the examples, and then the substance of each sheet. I often wanted to return to something from the previous meeting, having left students to think about it --- this could only be done at the expense of the current session.
+ \item Seating and desks were sometimes arranged in a difficult manner. The room was close to capacity and I could not easily move around to all students. 
+ \item The videos were generally good. It is too far back now to particularize. But the basic `talking head/fixed camera' style is good; it would be a mistake to try to make it more like a modern media experience. 
+ \item The level of difficulty of tutorial sheets was mostly about right (some criticisms of particular sheets were passed to Sam Marsh at the time). For all, or almost all, sheets it was not possible to cover all the material, but leaving some for students to do outside of class is a good practice. 
+ \item I would like class sizes which are at or below $75\%$ capacity of the room. There was nothing wrong with the rooms as such. 
+ \item Blackboards are preferable to whiteboards.
+ \item It should be made possible for lecturers/tutors to fast forward through parts of the videos. It is necessary to watch some of each video, but not to sit through every minute.
+ \item Next time, I would probably reduce or eliminate the `reminders' at the start of most sessions. 
+ \item Some postdocs could lead the tutorials. 
+ \item I would teach it again, though it is low on my list of preferences. The style suits engineering mathematics; it should not be adopted for courses taken by single honours SoMaS students. 
+\end{itemize}
+
+\vspace{0.3cm}
+Respondent SM:
+\begin{itemize}
+ \item Not only has attendance been better than for pretty much all courses I've tutored in the past, but the level of engagement in the classes has also been noticeably better. When students are present, they are almost without exception working well. The classes feel like an excellent use of my time, much more so than for other courses.
+ \item Regarding the video lectures, the fact that students can easily catch up on material they might have missed, and revisit it when the need to, is a huge advantage over traditional lectures.
+ \item The course has required an increase in the effort from the staff involved (as the classes require more thought and energy).
+ \item It's possible that students aren't taking in the material as well from videos as opposed to live lectures, but we don't have any evidence to suggest that's the case.
+ \item There's an assumption one has to take that students have watched the videos, which may not be justified, but that's the same assumption one always has to make about students attending lectures.
+ \item Questionnaire feedback from Semester 1 gave the impression that the videos were effective. My feeling is that the best videos gave students more than one explanation of each concept (perhaps as simple as a rephrasing along the lines of ‘another way to think about this is…') because students don't get the chance to ask a question at the time, and sometimes the first explanation might not hit the mark with someone. I would like to see the videos getting subtitles (captions) for international students in particular. I would also like to allow students to watch the videos at 1.5 speed, so that if the delivery is frustratingly slow for them they can do something about that. A couple of the videos might need re-filming because of comments on them being too hard, or maybe not quite getting across the message clearly enough.
+  \item It's hard to tell how effective the online tests were. The fact that students had to do them counts for something, and my guess is that it helped students to get over an initial hump, but I'm not sure how we could know apart from asking them! Some did mention them in a positive way in the Semester 1 questionnaires.
+  \item Appropriate teaching spaces and small classes are the highest priorities for effective tutorials.
+  \item Next time I would talk more slowly in my videos! Also, a room with better blackboard space would be a big help.
+  \item Next time, I would get the sheets to the tutors in plenty of time (which didn't always happen this year!).
+  \item Tutorials led by post-docs \& PhD students are a possibility.
+  \item I enjoyed it very much! It felt to me like very worthwhile teaching, and I look forward to doing it again. It has given me food for thought for the other module I teach on, which has been very unsatisfying to teach at the same time, as the student engagement in the problem classes has been noticeably lower. Other than questions over staffing the classes, I don't think we have overlooked anything. That said, we haven't marked the exams yet…
+\end{itemize}
+
+\vspace{0.3cm}
+Respondent HP:
+\begin{itemize}
+ \item Two advantages were (i) more students attending tutorials, and (ii) easier to do sessions on the board since no other helpers present.
+ \item Video lectures could seem impersonal, but the students did not seem to mind this.
+ \item The problem sheets were often produced at the last minute, so I had difficulty preparing classes in time.
+ \item Some of the videos seemed to be aimed at mathematicians rather than engineers. Some others were a bit light on explanations, the methods being produced like rabbits from a hat.
+ \item The tutorial sheets were mostly about right, but with a few rather esoteric problems which engineers would not find interesting.
+ \item I would like a bit more notice of tutorial sheets and the ability to view the videos a bit sooner.
+ \item Tutorials could be led by post-docs and/or PhD students.
+ \item I enjoyed it and would teach the tutorials again.
+\end{itemize}
+
+\vspace{0.3cm}
+Respondent FR:
+\begin{itemize}
+ \item Roughly, I spent at least one hour recording per 10 minute
+video, and an hour-ish thinking about what to say and how to say it.
+Even with all this, the final versions contained a couple of small
+mistakes that needed correcting at the editing stage.
+ \item For the 10 minute videos I condensed all I was going to say/do on
+an A4 piece of paper. If I were to make more videos, I would like to
+have this piece of paper clearly visible at all times. This would
+prevent typos/slips and stumbles/lapses which cause you to redo the
+video and costs lots of time. In other words, it would be great to
+have a primitive version of an autocue! One way to do this would be to
+use an OHP to project the lecture notes onto the wall behind the
+camera. This would have the effect of meaning the speaker can appear
+to look at the camera when trying to remember what they were going to
+say, and what the answer to small technical things are (say like
+multiplying 34 x 231 etc.) with out having to think.
+\end{itemize}
+
+\acknowledgements
+With thanks to Sam Marsh, Nick Gurski, and teaching staff on MAS152 for their guidance and assistance.
+
+\bibliographystyle{unsrt}
+\begin{thebibliography}{9}
+
+\bibitem{Bonk:Graham}
+C.~J.~Bonk and C.~R.~Graham, {\it``The handbook of blended learning: Global perspectives, local designs''} 
+(Pfeiffer, San Francisco, 2006). 
+
+\bibitem{Ropchan:Stutt:2013}
+K.~Ropchan and G.~Stutt,
+{\it``Flipped Classroom''} (2013), University of British Columbia [\url{ete.ctlt.ubc.ca/510wiki/Flipped_Classroom}].
+
+\bibitem{WesleyBaker}
+J.~Baker, {\it``The `classroom flip': Using web course management tools to become the guide by the side''}, (2000). Presentation at 11th International Conference on College Teaching and Learning (Jacksonville, Florida).
+
+\bibitem{Golden:Stripp}
+K.~Golden and C.~Stripp, {\it``Blending on-line and traditional classroom-based teaching''}, (2006). Proceedings of the IMA Conference, Mathematical Education of Engineers. Ed. S. Hibberd. [\url{http://www.mei.org.uk/files/pdf/LOUGHBOROUGH_PAPER_D3CS.pdf}].
+
+\bibitem{Maesumi}
+M.~Maesumi, 
+{\it``MathExpo: A Site for College Level Mathematics and Accessibility''}, University of Lamar (Texas, US), 
+[\url{http://www.math.lamar.edu/faculty/maesumi/mathexpo.html}]
+
+\bibitem{Marsh1}
+S.~Marsh,
+{\it``Engaging large groups through blended learning''}.
+Presentation at {\it Digital possibilities: Inspiring learning through technology}, 8th University of Sheffield Learning \& Teaching Conference, Jan 2014 [\url{http://conferencesheffield.blogspot.co.uk/2013/12/4-blending-technology-and-learning.html}].
+
+\bibitem{Marsh2}
+S.~Marsh, 
+{\it``A new approach to our engineering teaching''}. Presentation to School of Mathematics \& Statistics, University of Sheffield, 30th Jan 2014 [\url{http://sam-marsh.staff.shef.ac.uk/docs/blended_learning.pdf}].
+
+\bibitem{MAS152}
+S.~Marsh,
+{\it``MAS152: Course homepage''} (2014) [\url{http://sam-marsh.staff.shef.ac.uk/mas152/}].
+
+\bibitem{Gurski}
+N.~Gurski,
+{\it``CiLT Module 2 portfolio''}, University of Sheffield (2012). 
+
+\bibitem{Karr}
+C.~Karr, B.~Weck, D.~Sunal and T.~Cook, 
+{\it``Analysis of the effectiveness of online learning in a graduate engineering math course''}, 
+Journal of Interactive Online Learning {\bf 1}, 3 (2003).
+
+\bibitem{Nguyen}
+D.~Nguyen and G.~Kulm,
+{\it``Using web-based practice to enhance mathematics learning and achievement''},
+Journal of Interactive Online Learning {\bf 3}, 3 (2005).
+
+\bibitem{AIM}
+N.~Strickland,
+{\it``Alice Interactive Mathematics''}, MSOR Connections {\bf 2}(1), 27 (2002) [\url{http://ltsn.mathstore.ac.uk/headocs/21aim.pdf}].
+
+\bibitem{playlist}
+Sample videos: \url{http://www.youtube.com/watch?v=elFqHzOAlzs&list=PLqvhP6807i-0nC5hcCqteLVuVOLPw6f-a}.
+
+\bibitem{sheffieldgraduate}
+The Sheffield Graduate: \url{http://www.sheffield.ac.uk/sheffieldgraduate}
+
+\bibitem{khan}
+The Khan Academy: \url{https://www.khanacademy.org/}
+
+
+\end{thebibliography}
+
+
+\end{document}

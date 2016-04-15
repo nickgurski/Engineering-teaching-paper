@@ -24,22 +24,13 @@
 \maketitle
 
 \begin{abstract}
-In a large-scale trial at the University of Sheffield ($n=236$), we implemented a flipped approach to teaching mathematics to first-year engineers. Lectures were discontinued and replaced with an integrated format of specially filmed short videos, online quizzes and twice as much small-group learning.  By comparing data on attendance, satisfaction and exam performance with students on an identical syllabus taking the same exam but taught traditionally, we found strong evidence in favour of the new approach.
+In a large-scale trial at the University of Sheffield ($n=236$), we implemented a flipped approach to teaching mathematics to first-year engineers. Lectures were discontinued and replaced with an integrated format of specially filmed short videos, online quizzes and twice as much small-group learning. By comparing data on attendance, satisfaction and exam performance with students on an identical syllabus taking the same exam but taught traditionally, we found strong evidence in favour of the new approach.
 \end{abstract}
 
 \section{Background}
-The School of Mathematics and Statistics provides mathematics teaching for undergraduate students in the Faculty of Engineering. Predominantly, these modules are taught in a traditional format of two large-group lectures (200 students or more) and one smaller-group tutorial class per week.  Attendance records at the tutorials (but not the lectures) are kept.  We find that numbers usually start high, but drop off as time progresses (see figure 1).
+The School of Mathematics and Statistics provides mathematics teaching for the majority of students in the Faculty of Engineering. Predominantly, these modules are taught in a traditional format of two large-group lectures (200 students or more) and one smaller-group problem class (40 students, sometimes more) per week.  The problem 
 
-\begin{center}
-\begin{figure}[h]
-\includegraphics[bb=50 250 562 545,width=1\textwidth]{Figure1.pdf}
-\caption{Attendance on three traditional modules, Semester 1 2013--14}
-\end{figure}
-\end{center}
-
-Each student is assigned to a tutorial group with a ratio of about 20-30 students per staff member or postgraduate assistant; on some courses, tutorials would have 40 students with one staff member and one assistant, while others would have 80 students with one staff member and three assistants. The tutorial classes would generally consist of students working on set problems, asking for assistance as necessary.
-
-
+Attendance at problem classes has tended to taper off as the semester progresses.
 
 %This is some stuff I have copied from my CiLT 2 portfolio, we can include or not.
 %

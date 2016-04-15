@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.26pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Background}{2}{0}{1}
+\beamer@sectionintoc {2}{About the new format}{15}{0}{2}
+\beamer@subsectionintoc {2}{1}{The videos}{33}{0}{2}
+\beamer@subsectionintoc {2}{2}{The delivery system}{44}{0}{2}
+\beamer@subsectionintoc {2}{3}{The problem classes}{49}{0}{2}
+\beamer@sectionintoc {3}{Speculation}{59}{0}{3}
+\beamer@sectionintoc {4}{Course materials}{73}{0}{4}

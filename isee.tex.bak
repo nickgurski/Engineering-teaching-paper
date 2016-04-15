@@ -28,18 +28,9 @@ In a large-scale trial at the University of Sheffield ($n=236$), we implemented 
 \end{abstract}
 
 \section{Background}
-The School of Mathematics and Statistics provides mathematics teaching for undergraduate students in the Faculty of Engineering. Predominantly, these modules are taught in a traditional format of two large-group lectures (200 students or more) and one smaller-group tutorial class per week.  Attendance records at the tutorials (but not the lectures) are kept.  We find that numbers usually start high, but drop off as time progresses (see figure 1).
+The School of Mathematics and Statistics provides mathematics teaching for undergraduate students in the Faculty of Engineering. Predominantly, these modules are taught in a traditional format of two large-group lectures (200 students or more) and one smaller-group tutorial class per week.  Each student is assigned to a tutorial group with a ratio of about 20-30 students per staff member or postgraduate assistant; on some courses, tutorials would have 40 students with one staff member and one assistant, while others would have 80 students with one staff member and three assistants. The tutorial classes would generally consist of students working on set problems, asking for assistance as necessary.
 
-\begin{center}
-\begin{figure}[h]
-\includegraphics[bb=50 250 562 545,width=1\textwidth]{Figure1.pdf}
-\caption{Attendance on three traditional modules, Semester 1 2013--14}
-\end{figure}
-\end{center}
-
-Each student is assigned to a tutorial group with a ratio of about 20-30 students per staff member or postgraduate assistant; on some courses, tutorials would have 40 students with one staff member and one assistant, while others would have 80 students with one staff member and three assistants. The tutorial classes would generally consist of students working on set problems, asking for assistance as necessary.
-
-
+Attendance records at the tutorials (but not the lectures) are kept.  We find that numbers usually start high, but drop off as time progresses.  Antidotally, attendance at lectures follows a similar pattern but tends to hold up better.
 
 %This is some stuff I have copied from my CiLT 2 portfolio, we can include or not.
 %
