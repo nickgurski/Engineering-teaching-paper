@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.18)  15 APR 2016 15:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.18)  17 APR 2016 13:08
 entering extended mode
 **C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/isee.tex
 (C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/isee.tex
@@ -387,62 +387,81 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen176
+\extrarowheight=\dimen177
+\NC@list=\toks39
+\extratabsurround=\skip51
+\backup@length=\skip52
+)
+\TX@col@width=\dimen178
+\TX@old@table=\dimen179
+\TX@old@col=\dimen180
+\TX@target=\dimen181
+\TX@delta=\dimen182
+\TX@cols=\count133
+\TX@ftn=\toks40
+)
 (C:\Users\sm1sm\Documents\GitHub\Engineering-teaching-paper\isee.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 23.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 24.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen176
+\scratchcounter=\count134
+\scratchdimen=\dimen183
 \scratchbox=\box37
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen177
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks40
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen184
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks42
 )
-Package xypdf Info: Line width: 0.39998pt on input line 23.
+Package xypdf Info: Line width: 0.39998pt on input line 24.
 
 
 Class amsart Warning: Abstract should precede \maketitle in AMS document classe
-s; reported on input line 26.
+s; reported on input line 27.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 35.
+(pdftex.def)                using `viewport' instead on input line 39.
 
 <Figure1.pdf, id=1, 614.295pt x 794.97pt>
 File: Figure1.pdf Graphic file (type pdf)
  <use Figure1.pdf>
-Package pdftex.def Info: Figure1.pdf used on input line 35.
+Package pdftex.def Info: Figure1.pdf used on input line 39.
 (pdftex.def)             Requested size: 360.0pt x 207.42708pt.
  [1
 Non-PDF special ignored!
@@ -452,16 +471,35 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C
 :/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/Figure1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/10 Worksheets,
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 66--66
+\OT1/cmr/m/n/10 proac-tive teach-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/10 Video lec-tures,
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 66--66
+\OT1/cmr/m/n/10 book-let, dis-cus-
+ []
+
 [2] [3] (C:\Users\sm1sm\Documents\GitHub\Engineering-teaching-paper\isee.aux) )
  
 Here is how much of TeX's memory you used:
- 7208 strings out of 494045
- 91104 string characters out of 3145969
- 215452 words of memory out of 3000000
- 10215 multiletter control sequences out of 15000+200000
+ 7296 strings out of 494045
+ 92192 string characters out of 3145969
+ 219004 words of memory out of 3000000
+ 10297 multiletter control sequences out of 15000+200000
  12133 words of font info for 54 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
- 34i,6n,38p,3295b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,38p,3295b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
@@ -469,11 +507,12 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on isee.pdf (3 pages, 225670 bytes).
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on isee.pdf (3 pages, 241159 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
