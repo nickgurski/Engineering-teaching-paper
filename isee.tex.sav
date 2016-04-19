@@ -10,6 +10,7 @@
 \usepackage{eucal}
 \usepackage[all]{xy}
 \usepackage{pstricks}
+\usepackage{tabularx}
 \newcommand{\bs}{\boldsymbol}
 \newcommand{\mb}{\mathbf}
 \renewcommand{\dot}{\centerdot}
@@ -24,13 +25,31 @@
 \maketitle
 
 \begin{abstract}
-In a large-scale trial at the University of Sheffield ($n=236$), we implemented a flipped approach to teaching mathematics to first-year engineers. Lectures were discontinued and replaced with an integrated format of specially filmed short videos, online quizzes and twice as much small-group learning. By comparing data on attendance, satisfaction and exam performance with students on an identical syllabus taking the same exam but taught traditionally, we found strong evidence in favour of the new approach.
+In a large-scale trial at the University of Sheffield ($n=236$), we implemented a flipped approach to teaching mathematics to first-year engineers. Lectures were discontinued and replaced with an integrated format of specially filmed short videos, online quizzes and twice as much small-group learning.  We found strong evidence that engagement and exam performance were boosted by the new method by comparing with students on an identical syllabus taking the same exam but taught traditionally.
 \end{abstract}
 
-\section{Background}
-The School of Mathematics and Statistics provides mathematics teaching for the majority of students in the Faculty of Engineering. Predominantly, these modules are taught in a traditional format of two large-group lectures (200 students or more) and one smaller-group problem class (40 students, sometimes more) per week.  The problem 
+\section{Introduction}
 
-Attendance at problem classes has tended to taper off as the semester progresses.
+\subsection{Background}
+
+The School of Mathematics and Statistics provides mathematics teaching for undergraduate students in the Faculty of Engineering at the University of Sheffield. Predominantly, these modules have been taught in a traditional format of two large-group lectures (200 students or more) and one smaller-group problem class (approximately 40 students) per week.  Attendance records are kept for problem classes but not lectures.  We find that attendance usually starts high, but drops off as time progresses (see Figure 1).
+
+\begin{center}
+\begin{figure}[hbt]
+\includegraphics[bb=50 250 562 545,width=1\textwidth]{Figure1.pdf}
+\caption{Problem class attendance on two traditionally taught engineering mathematics modules, Semester 1 2013--14}
+\end{figure}
+\end{center}
+
+A working group was established to look into the effectiveness of these modules, with a particular focus on whether a flipped approach, based around videos, online tests and small-group classes, could provide a more engaging course for students.
+
+The working group established a key proposal: that large-group lectures would be discontinued, and their content split into theory (to be included in the videos) and examples (to be done in classes).  Further, the amount of contact time allocated to small-group learning would be doubled.  This approach was to be piloted on a first-year module of 236 students, with two other modules totalling 298 students which cover an identical syllabus but taught traditionally used as a comparison.
+
+\subsection{Literature}%I suggest we put a couple of paragraphs about flipped learning here, no more, and not too dense.
+
+
+
+
 
 %This is some stuff I have copied from my CiLT 2 portfolio, we can include or not.
 %
@@ -63,15 +82,133 @@ Attendance at problem classes has tended to taper off as the semester progresses
 %
 %A study \cite{kwsc} done at the University of Alabama considered three groups of students taking a graduate-level mathematics course for engineers.  In this study, all three groups performed very similarly, with the students in the blended group outperforming those in the traditional group on exams and with students in the online-only group performing the best on analytical, take-home assessments.  For the first of these results, that authors suggest that students having access to both online and traditional methods will choose the method that best suits them, thus increasing overall performance.  For the results on the analytical assessments, the authors suggest that students in the online-only group were required to work harder and understand the material at a deeper level since they did not have easy access to an outside source of knowledge (i.e., the instructor) to supply hints or solutions immediately.
 
+\section{Comparison of teaching methods}
 
+\subsection{Summary}
 
+The difference in structure of the flipped approach as compared with the traditional course format is summarised in Table 1.  Both formats are for year-long, 20-credit modules for first year engineers from varying departments studying the same syllabus.  Note that timetabled sessions are 50-minutes in duration, and these are the units used for counting lectures and problem classes.
+
+\begin{table}[htb]
+\begin{tabularx}{0.8\textwidth}{lXX}
+ & Traditional & Flipped\\\hline
+Lectures per week & 2 & 0\\
+Problem classes per week & 1 & 2\\
+Problem class format & Exercise booklet, reactive teaching & Worksheets, proactive teaching\\
+Continuous assessment & End of semester homework & Online tests\\
+Additional resources & Typed notes, office hour, webpage/VLE & Video lectures, typed notes, additional exercise booklet, discussion board, office hour, webpage/VLE
+\end{tabularx}
+\caption{Comparison of teaching formats}
+\end{table}
+
+The main differences in approach are that two or three short (10--15 minute) video lectures replace each face-to-face lecture, quick online tests follow each video, and problem classes are doubled in frequency and given more structure.
+
+\subsection{Video delivery}
+
+The videos are best described as for-purpose `chalk-and-talk' short films, made using minimal equipment (camcorder, lapel-mic, umbrella lights and blackboard in a standard office).  In a few places cutaways to narrated slides also feature.  The videos are hosted, unlisted, on Youtube and students access them as embedded into a page within the Assessment in Mathematics (AiM) learning-environment, itself mostly developed at our department.  AiM allows for each video to be followed by mathematical questions, randomly varied by student, and the underlying software is able to manipulate algebra so as to accept any valid rearrangement of a correct answer. It also gives instant feedback on student responses and records all activity, allowing us to track engagement and performance.
+
+\subsection{Problem classes}
+
+In a standard week students complete two iterations of the cycle: log in to AiM $>$ watch 3 videos $>$ rewatch if necessary $>$ complete the online tests $>$ attend a problem class. Additionally, students are encouraged to work on a booklet of practice exercises independently, supported by the course notes and staff or peers on an online discussion board.
+
+Students are assigned to a problem class group of size 40.  These groups meet twice a week.  The class is run by a tutor who recaps and reinforces the theory seen in the videos (5--10 minutes), encourages input on an example demonstrated at the board (5--10 minutes), then sets problems for students to work on, encouraging peer-discussion.  Each problem class has a lesson plan which is made available subsequently to students via the course webpage.
+
+The format for the new problem classes differs from our previous approach, where the ratio of teachers to students was better --- 40 students were catered for by one staff member and one postgraduate student assistant --- but the class was reactive, with students working on exercises and teaching staff responding to demand for assistance.
 
 
 \section{Methodology}
-Here we outline the nature of the pilot and the data which would form our assessment of effectiveness.
+
+The pilot implementation of our scheme was restricted to a module for one of the engineering departments (Module C, $n=236$), with modules for two further departments directly comparable (Module A, $n=137$, and Module B, $n=161$).  The latter two modules were lectured in a single group.  All students had attendance recorded at problem classes and received feedback questionnaires at the end of each semester.  Data on the use of the video-system (AiM) was recorded for students on Module C.  The exam was identical for all students and sat concurrently.
+
+Raw exam data for the preceding two years was also available, where all three modules were taught in the traditional format with a common exam, allowing for an analysis of exam performance that could control for variations in the relative abilities of students on different courses.
 
 \section{Analysis}
-Here we present our findings.
+
+\subsection*{Engagement}
+
+Attendance at problem classes was considerably better across the year for the new format, Module C (see Figures 2 and 3, and Table 2).  Students attended approximately three times as many problem classes across the year, due to a higher attendance rate ($77\%$ compared to $50$--$60\%$) over twice as many scheduled classes.
+
+\begin{center}
+\begin{figure}[hbt]
+\includegraphics[bb=50 250 562 545,width=1\textwidth]{figure2.pdf}
+\caption{Problem class attendance, Semester 1}
+\end{figure}
+\end{center}
+
+\begin{center}
+\begin{figure}[hbt]
+\includegraphics[bb=50 250 562 545,width=1\textwidth]{figure3.pdf}
+\caption{Problem class attendance, Semester 2. Easter break occurred between Weeks 8 and 9.}
+\end{figure}
+\end{center}
+
+\begin{table}[htb]
+\begin{tabular}{lccc}
+& Average attendance & Average no. classes attended\\\hline
+Module A & 59\% & $10$--$12$*\\
+Module B & 50\% & $7.5$--$11.5$*\\
+Module C & 77\% & $31.5$
+\end{tabular}
+\caption{Summary of attendance data. An asterisk indicates incomplete data towards the end of the course leading to the shown uncertainty.}
+\end{table}
+
+Additionally, as students were unable to access the online tests until they had watched the relevant video in full, without fast-forwarding, we were able to determine the number of students who had watched each video on time (see Figure 4).  The data from indicates that the vast majority of students (86\%) watched at least $80\%$ of the videos on time, and half of students watched at least $97\%$ of the videos on time.  It is possible, and indeed likely, that students who had not watched the videos on time watched them at a later date, but we didn't have a method for tracking such engagement.
+
+\begin{center}
+\begin{figure}[hbt]
+\includegraphics[width=0.75\textwidth]{figure4.pdf} 
+\begin{tabular}{cc}
+Proportion & No. students\\\hline
+0--20\% & 1\\
+20--40\% & 6\\
+40-60\% & 6\\
+60--80\% & 19\\
+80--90\% & 27\\
+90--95\% & 36\\
+95--99\% & 57\\
+100\% & 84
+\end{tabular}
+\caption{Distribution of videos watched on time (students who withdrew mid-course not included)}
+\end{figure}
+\end{center}
+
+\subsection*{Student satisfaction}
+
+Module feedback from students was very positive. In Semester 1, over 94.9\% were satisfied or very satisfied with the course in the end-of-semester questionnaire (118 responses), and the figure was 88.7\% in Semester 2 (81 responses). Additionally, across the two semesters,
+
+- 115 of 168 comments mentioned online videos when asked what was good about the module;\\
+- only 5 comments suggested traditional lectures would improve the module.
+
+Satisfaction rates were also high for the for the traditionally taught courses.  In Semester 1, the figures were 97.6\% and 94.3\% satisfied or very satisfied for the traditionally taught courses (42 and 72 responses respectively), and in Semester 2, 100\% and 98.5\% (24 and 66 responses).  This indicates that the lower attendance rates on the traditionally taught modules are not due to low levels of student satisfaction.
+
+Below we cherry-pick some of the best comments from the students.  Full questionnaires are available from the authors on request.
+
+From the student feedback questionnaires, ``What was good about the module?":
+\begin{itemize}
+\item EVERYTHING. I love this style of teaching. Problem classes are a fun, relaxed atmosphere. Perfect level of difficulty.
+\item Loved the online video lecture system. It gave me the chance to work through the material at my own pace,
+pausing the lecture to take down clear and detailed notes. The problem classes reinforced what I had learnt at
+home and allowed me to ask any questions that arose when I was watching the videos.
+\item I feel this module is very well done, especially with the usage of online lectures and problem classes, which deeply help my understanding of the taught material.
+\item The combination of video lectures and problem classes is very effective. It allows students to learn when they
+are most motivated and it enables students to pause and replay the lectures.
+\item The video lecture system is really impressive and useful and students can watch the clips over and over again.
+\item Maths videos \& tests were in my opinion the way forward. By recording the lectures, the lecturers make minimal
+mistakes. They also make the time spent at the university more effective for students as they receive individual
+help on problems \& are able to question things freely.
+\item The online video lectures are very useful as they can be paused, giving you time to take notes. The explanations
+given by the lecturers in the video are usually of a very high standard. The level of content is high, yet I do not
+feel unable to cope.
+\item I like the online quiz and test concept since it gives a sense of freedom in learning.
+\end{itemize}
+
+\subsection{Exam performance}
+
+Statistical analysis of data for the three years to 2013--14 indicates that our approach adds 8 marks (with a 95\% confidence interval of 4 to 12 marks) to the expected grade of a student. The linear model used controls for differences in exams year-on-year and performance trends across departments.
+
+Figure 5 shows the data for Modules A, B and C for 2012--13, when all courses were taught in the traditional format, and 2013--14, when Module C was changed to the flipped approach.
+
+Exam data for 2013-14 is below. (Final module marks included coursework, so the data does not represent overall failure rates.)
+
 
 \section{Conclusions}
 Here we sum up.

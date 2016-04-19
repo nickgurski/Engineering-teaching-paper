@@ -137,7 +137,7 @@ Attendance at problem classes was considerably better across the year for the ne
 \begin{center}
 \begin{figure}[hbt]
 \includegraphics[bb=50 250 562 545,width=1\textwidth]{figure3.pdf}
-\caption{Problem class attendance, Semester 2}
+\caption{Problem class attendance, Semester 2. Easter break occurred between Weeks 8 and 9.}
 \end{figure}
 \end{center}
 
@@ -148,30 +148,69 @@ Module A & 59\% & $10$--$12$*\\
 Module B & 50\% & $7.5$--$11.5$*\\
 Module C & 77\% & $31.5$
 \end{tabular}
-\caption{Summary of attendance data. The * indicates incomplete data towards the end of the course leading to the uncertainty shown.}
+\caption{Summary of attendance data. An asterisk indicates incomplete data towards the end of the course leading to the shown uncertainty.}
 \end{table}
 
 Additionally, as students were unable to access the online tests until they had watched the relevant video in full, without fast-forwarding, we were able to determine the number of students who had watched each video on time (see Figure 4).  The data from indicates that the vast majority of students (86\%) watched at least $80\%$ of the videos on time, and half of students watched at least $97\%$ of the videos on time.  It is possible, and indeed likely, that students who had not watched the videos on time watched them at a later date, but we didn't have a method for tracking such engagement.
 
 \begin{center}
 \begin{figure}[hbt]
-\includegraphics[width=1\textwidth]{figure4.pdf}
-\caption{Proportions of videos watched on time}
+\includegraphics[width=0.75\textwidth]{figure4.pdf} 
+\begin{tabular}{cc}
+Proportion & No. students\\\hline
+0--20\% & 1\\
+20--40\% & 6\\
+40-60\% & 6\\
+60--80\% & 19\\
+80--90\% & 27\\
+90--95\% & 36\\
+95--99\% & 57\\
+100\% & 84
+\end{tabular}
+\caption{Distribution of videos watched on time (students who withdrew mid-course not included)}
 \end{figure}
 \end{center}
 
-%\begin{table}[htb]
-%\begin{tabular}{cc}
-%Proportion watched on time & Number of students\\\hline
-%0--20\% & 1\\
-%20-40\% & 6\\
-%40-60\% & 6\\
-%60-80\% & 19\\
-%80-97\% & 85\\
-%97--100\% & 119
-%\end{tabular}
-%\caption{Proportion of videos watched on time (total number of students=236)}
-%\end{table}
+\subsection*{Student satisfaction}
+
+Module feedback from students was very positive. In Semester 1, over 94.9\% were satisfied or very satisfied with the course in the end-of-semester questionnaire (118 responses), and the figure was 88.7\% in Semester 2 (81 responses). Additionally, across the two semesters,
+
+- 115 of 168 comments mentioned online videos when asked what was good about the module;\\
+- only 5 comments suggested traditional lectures would improve the module.
+
+Satisfaction rates were also high for the for the traditionally taught courses.  In Semester 1, the figures were 97.6\% and 94.3\% satisfied or very satisfied for the traditionally taught courses (42 and 72 responses respectively), and in Semester 2, 100\% and 98.5\% (24 and 66 responses).  This indicates that the lower attendance rates on the traditionally taught modules are not due to low levels of student satisfaction.
+
+Below we cherry-pick some of the best comments from the students.  Full questionnaires are available from the authors on request.
+
+From the student feedback questionnaires, ``What was good about the module?":
+\begin{itemize}
+\item EVERYTHING. I love this style of teaching. Problem classes are a fun, relaxed atmosphere. Perfect level of difficulty.
+\item Loved the online video lecture system. It gave me the chance to work through the material at my own pace,
+pausing the lecture to take down clear and detailed notes. The problem classes reinforced what I had learnt at
+home and allowed me to ask any questions that arose when I was watching the videos.
+\item I feel this module is very well done, especially with the usage of online lectures and problem classes, which deeply help my understanding of the taught material.
+\item The combination of video lectures and problem classes is very effective. It allows students to learn when they
+are most motivated and it enables students to pause and replay the lectures.
+\item The video lecture system is really impressive and useful and students can watch the clips over and over again.
+\item Maths videos \& tests were in my opinion the way forward. By recording the lectures, the lecturers make minimal
+mistakes. They also make the time spent at the university more effective for students as they receive individual
+help on problems \& are able to question things freely.
+\item The online video lectures are very useful as they can be paused, giving you time to take notes. The explanations
+given by the lecturers in the video are usually of a very high standard. The level of content is high, yet I do not
+feel unable to cope.
+\item I like the online quiz and test concept since it gives a sense of freedom in learning.
+\end{itemize}
+
+\subsection{Exam performance}
+
+Statistical analysis of data for the three years to 2013--14 indicates that our approach adds 8 marks (with a 95\% confidence interval of 4 to 12 marks) to the expected grade of a student. The linear model used controls for differences in exams year-on-year and performance trends across departments.
+
+Figure 5 shows the data for Modules A, B and C for 2012--13 (when all courses were taught in the traditional format) and 2013--14 (when Module C was changed to the flipped approach).
+
+
+
+Exam data for 2013-14 is below. (Final module marks included coursework, so the data does not represent overall failure rates.)
+
 
 \section{Conclusions}
 Here we sum up.
