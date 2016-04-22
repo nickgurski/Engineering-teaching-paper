@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.18)  20 APR 2016 12:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.18)  21 APR 2016 15:03
 entering extended mode
 **C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/isee.tex
 (C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/isee.tex
@@ -463,21 +463,20 @@ File: Figure1.pdf Graphic file (type pdf)
  <use Figure1.pdf>
 Package pdftex.def Info: Figure1.pdf used on input line 39.
 (pdftex.def)             Requested size: 360.0pt x 207.42708pt.
- [1
+
+
+LaTeX Warning: Citation `mm' on page 1 undefined on input line 49.
+
+
+LaTeX Warning: Citation `mm' on page 1 undefined on input line 49.
+
+[1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C
-:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/Figure1.pdf>]
-
-LaTeX Warning: Citation `mm' on page 2 undefined on input line 49.
-
-
-LaTeX Warning: Citation `mm' on page 2 undefined on input line 49.
-
-
+Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
 []|\OT1/cmr/m/n/10 Worksheets,
  []
@@ -512,10 +511,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--97
 \OT1/cmr/m/n/10 of-fice hour,
  []
 
-[2]
-Overfull \hbox (2.70032pt too wide) has occurred while \output is active
+[2 <C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/Figure1.pdf>]
+Overfull \hbox (227.21114pt too wide) has occurred while \output is active
  \OT1/cmr/m/n/7 FLIPPED TEACHING AS A METHOD FOR BOOSTING ENGAGEMENT AND PERFOR
-MANCE []
+MANCE (UNFINISHED DRAFT, MOVED TO WORD DOCUMENT) []
  []
 
 [3]
@@ -545,9 +544,9 @@ File: figure4.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure4.pdf used on input line 156.
 (pdftex.def)             Requested size: 270.0pt x 190.936pt.
 
-Overfull \hbox (2.70032pt too wide) has occurred while \output is active
+Overfull \hbox (227.21114pt too wide) has occurred while \output is active
  \OT1/cmr/m/n/7 FLIPPED TEACHING AS A METHOD FOR BOOSTING ENGAGEMENT AND PERFOR
-MANCE []
+MANCE (UNFINISHED DRAFT, MOVED TO WORD DOCUMENT) []
  []
 
 [5 <C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/figure3.pdf>]
@@ -572,16 +571,16 @@ File: figure6.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure6.pdf used on input line 222.
 (pdftex.def)             Requested size: 360.0pt x 381.59079pt.
 
-Overfull \hbox (2.70032pt too wide) has occurred while \output is active
+Overfull \hbox (227.21114pt too wide) has occurred while \output is active
  \OT1/cmr/m/n/7 FLIPPED TEACHING AS A METHOD FOR BOOSTING ENGAGEMENT AND PERFOR
-MANCE []
+MANCE (UNFINISHED DRAFT, MOVED TO WORD DOCUMENT) []
  []
 
 [7] [8 <C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/figure5.pdf>
 ]
-Overfull \hbox (2.70032pt too wide) has occurred while \output is active
+Overfull \hbox (227.21114pt too wide) has occurred while \output is active
  \OT1/cmr/m/n/7 FLIPPED TEACHING AS A METHOD FOR BOOSTING ENGAGEMENT AND PERFOR
-MANCE []
+MANCE (UNFINISHED DRAFT, MOVED TO WORD DOCUMENT) []
  []
 
 [9 <C:/Users/sm1sm/Documents/GitHub/Engineering-teaching-paper/figure6.pdf>]
@@ -593,7 +592,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  7325 strings out of 494045
  92581 string characters out of 3145969
- 220041 words of memory out of 3000000
+ 220127 words of memory out of 3000000
  10321 multiletter control sequences out of 15000+200000
  12133 words of font info for 54 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
@@ -609,7 +608,7 @@ s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on isee.pdf (10 pages, 802988 bytes).
+Output written on isee.pdf (10 pages, 805243 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
